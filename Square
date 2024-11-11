@@ -1,0 +1,16 @@
+package ru.novitskii.geometry;
+
+public class Square extends Figure {
+    private double x, y;
+    private double side;
+
+    public Square(double x, double y, double side) {
+        this.x = x;
+        this.y = y;
+        this.side = side;
+    }
+
+    public double area() {
+        return side * side;
+    }
+}
